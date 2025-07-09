@@ -7,3 +7,7 @@ resource "azurerm_resource_group" "resource_rp" {
   name     = each.key
   location = each.value
 }
+resource "azurerm_resource_group" "rg1" {
+name    = "rgdelhi"
+location = "East US"  
+}
