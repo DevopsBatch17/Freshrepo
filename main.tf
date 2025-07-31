@@ -1,8 +1,8 @@
 resource "azurerm_resource_group" "rg1" {
-name    = "rgdelhi"
+name    = "rg-delhi"
 location = "East US"  
 }
-resource "azurerm_resource_group" "rg1" {
+resource "azurerm_resource_group" "rg2" {
 name    = "rg-Mumbai"
 location = "East US"  
 }
