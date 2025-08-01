@@ -4,7 +4,7 @@ terraform {
     resource_group_name  = "rg-babina"
     storage_account_name = "pateriyastg"
     container_name       = "mycontainer1"
-    key                  = "files.tfstate"
+    key                  = "file.tfstate"
   }
   required_providers {
     azurerm = {
